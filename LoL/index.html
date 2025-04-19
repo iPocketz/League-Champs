@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Legends Champions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>League of Legends Champions</h1>
+    <div class="champions-container">
+        <!-- Shen -->
+        <div class="champion" onclick="playAudio('champion1')">
+            <img src="img/League_Infobox_Shen.jpg" alt="Shen">
+        </div>
+        <!-- Alistar -->
+        <div class="champion" onclick="playAudio('champion2')">
+            <img src="img/League_Infobox_Alistar.jpg" alt="Alistar">
+        </div>
+        <!-- Pyke -->
+        <div class="champion" onclick="playAudio('champion3')">
+            <img src="img/League_Infobox_Pyke.jpg" alt="Pyke">
+        </div>
+        <!-- Trundle -->
+        <div class="champion" onclick="playAudio('champion4')">
+            <img src="img/League_Infobox_Trundle.jpg" alt="Trundle">
+        </div>
+
+
+
+    </div>
+
+    <audio id="champion1" src="sfx/Shen_Original_Joke.ogg"></audio>
+    <audio id="champion2" src="sfx/Alistar_Original_Joke.ogg"></audio>
+    <audio id="champion3" src="sfx/Pyke_Original_Laugh_0.ogg"></audio>
+    <audio id="champion4" src="sfx/Trundle_Original_Taunt_0.ogg"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
